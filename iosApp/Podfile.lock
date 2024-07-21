@@ -1,0 +1,16 @@
+PODS:
+  - proton (1.0)
+
+DEPENDENCIES:
+  - proton (from `../shared/proton`)
+
+EXTERNAL SOURCES:
+  proton:
+    :path: "../shared/proton"
+
+SPEC CHECKSUMS:
+  proton: 48307ff8458cbd03da76d5206f11a29194d55193
+
+PODFILE CHECKSUM: 030bb997c31881168e3eb75608d0892af3b5f520
+
+COCOAPODS: 1.15.2

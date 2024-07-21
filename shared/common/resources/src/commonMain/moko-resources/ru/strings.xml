@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!--FeedLog Report-->
+    <string name="feedlog_report_header">LAPORAN KELUARAN PAKAN %1$s SIKLUS %2$s - %3$s</string>
+    <string name="feedlog_header_method">Metode feeder yang di gunakan : %s</string>
+    <string name="feedlog_feed_brand">Merek Pakan</string>
+    <string name="feedlog_feeding_per_day">Keluaran per hari</string>
+    <string name="feedlog_doc">DOC</string>
+    <string name="feedlog_type">Label Keluaran</string>
+    <string name="feedlog_feed_per_hour">pakan per jam pakan</string>
+    <string name="feedlog_feed_hour">jam pakan</string>
+    <string name="feedlog_run">Durasi jalan</string>
+    <string name="feedlog_pause">Durasi jeda</string>
+    <string name="feedlog_time_range">Rentang</string>
+    <string name="feedlog_time">Waktu pakan</string>
+    <string name="feedlog_output">Keluaran pakan</string>
+
+    <string name="download_report_user">Pengguna</string>
+    <string name="download_report_population_harvested">Populasi dipanen</string>
+    <string name="download_report_total_feedlog">Total Feedlog</string>
+    <string name="download_report_mbw_abw">MBW/ABW</string>
+
+    <string name="commodity">Komoditas</string>
+
+    <string name="var_ekor_args">%s ekor</string>
+    <string name="unit_gr">%sgr</string>
+
+    <string name="feed_type_legacy">Legasi</string>
+    <string name="feed_type_run">Jalankan</string>
+    <string name="feed_type_schedule">Jadwal</string>
+    <string name="feed_type_button">Tombol</string>
+    <string name="feed_type_manual">Manual</string>
+    <string name="feed_type_calibration">Kalibrasi</string>
+
+    <string name="download_report_done">Unduh Selesai</string>
+    <string name="download_report_detail_done">Silakan periksa folder download ponsel Anda untuk
+        melihat laporan siklus
+    </string>
+
+    <string name="my_feeder_active_title">Sedang aktif</string>
+    <string name="my_feeder_unassigned_title">Belum terpasang</string>
+
+    <!--    Firmware -->
+    <string name="fota_notif_action">Update Sekarang</string>
+    <string name="my_feeder_title_update_os">Update OS feeder-mu ke %s</string>
+    <string name="my_feeder_description_update_os">%1$s dari %2$s feeder-mu belum update OS, nih.
+        Update OS ke %3$s dan nikmati performa feeder yang lebih stabil.
+    </string>
+    <string name="update_os_feeder">Update OS Feeder</string>
+    <string name="title_update_firmware_feeder">Baru! Update OS Feeder %s</string>
+    <string name="description_update_firmware_feeder">Rasakan pengalaman mengatur feeder yang lebih
+        baik di OS %s.
+    </string>
+    <string name="update_os_feeder_size">Update OS Feeder (%sMB)</string>
+    <string name="install_os_feeder">Install Sekarang</string>
+    <string name="update_os_title_progress_download">Sedang download OS %s</string>
+    <string name="update_os_error_download">Update OS %s gagal</string>
+    <string name="update_os_failed">Wah, update OS %s gagal.</string>
+    <string name="update_os_re_update">Coba lagi perbarui</string>
+    <string name="fota_install_error_body">Silahkan coba lagi, pastikan koneksi ke feeder tidak terputus</string>
+    <string name="fota_error_update_os">Error update OS %s ke %s</string>
+    <string name="firmware_update_bottomsheet_title">Pilih Feeder untuk Install OS %s</string>
+    <string name="button_finish">Selesai</string>
+    <string name="button_select">Pilih</string>
+    <string name="fota_install_progress_title">Install OS %s ke %s</string>
+    <string name="fota_success_title">Install OS %s Berhasil!</string>
+    <string name="fota_install_success_message">%s di %s telah berhasil pakai OS paling baru!</string>
+
+    <!--    Grouped Feeder-->
+    <string name="feeder_not_active_header">Tidak Aktif</string>
+    <string name="feeder_not_active_unassigned">Belum Ditetapkan</string>
+    <string name="feeder_active_header">Sedang Aktif</string>
+
+    <!--    Onboarding-->
+    <string name="banner_on_boarding_efeeder_5">Lihat kecanggihan eFeeder 5 sekarang!</string>
+    <string name="detail_onboarding_demage_detection">🔔 Deteksi Kerusakan Feeder Lewat Notifikasi
+    </string>
+    <string name="detail_onboarding_manage_all_feeder">⌛ Atur seluruh feeder-mu dari satu aplikasi
+    </string>
+    <string name="detail_onboarding_check_feed">✔️ Cek data pakan lebih lengkap dan bisa otomatis
+    </string>
+    <string name="detail_onboarding_description_demage_detection">Notifikasinya akan kasih info ke
+        kamu lebih awal kalau ada kerusakan. Pakai eFeeder 5 jadi lebih aman!
+    </string>
+    <string name="detail_onboarding_description_manage_all_feeder">Aturnya bisa 3x lebih cepat
+        dengan akses poin yang ada di eFeeder 5.
+    </string>
+    <string name="detail_onboarding_description_check_feed">Upgrade ke eFeeder 5 sekarang dan
+        dapatkan data pakan yang lebih menyeluruh dan akurat.
+    </string>
+
+    <!--    Calibration-->
+    <string name="calibration_result_value">Hasil %s g/detik</string>
+
+    <!--    AccessPointConnector-->
+    <string name="version_firmware_no_connected"><![CDATA[Versi firmware ini tidak dapat memunculkan akses poin terhubung<br><br>Dekatkan dan hubungkan ke akses poin yang terhubung ke eFeeder di %s.<br><br>*tanyakan tim eFishery untuk lebih lanjut]]></string>
+    <string name="move_access_point_closer_feeder">Dekatkan dan hubungkan ke akses poin yang terhubung ke eFeeder di %s.</string>
+    <string name="version_firmware_no_connected">Versi firmware ini tidak dapat memunculkan akses
+        poin terhubung
+        <b>Dekatkan dan hubungkan ke akses poin yang terhubung ke eFeeder di %s.</b>
+        <b>*tanyakan tim eFishery untuk lebih lanjut</b>
+    </string>
+    <string name="move_access_point_closer_feeder">Dekatkan dan hubungkan ke akses poin yang
+        terhubung ke eFeeder di %s.
+    </string>
+    <string name="ask_team_efishery">*tanyakan tim eFishery untuk lebih lanjut</string>
+
+    <!--    multiFeederNotFound-->
+    <string name="you_better_to_check">Sebaiknya kamu pergi untuk memeriksa!</string>
+    <string name="seems_like_problem_with_feeder">Sepertinya ada kendala dengan %s yang membuat
+        perintah yang kamu berikan selalu gagal terkirim. Hubungi tim eFishery terdekat jika kamu
+        memiliki kebingungan
+    </string>
+
+    <!--    Schedules-->
+    <string name="device_not_found">Perangkat tidak Ditemukan</string>
+    <string name="feeding_method_basic">Basic</string>
+    <string name="feeding_method_advanced">Advanced</string>
+    <string name="feeding_method_continuous">Continuous</string>
+
+    <string name="feed_type_legacy">Legasi</string>
+    <string name="feed_type_run">Jalankan</string>
+    <string name="feed_type_schedule">Jadwal</string>
+    <string name="feed_type_button">Tombol</string>
+    <string name="feed_type_manual">Manual</string>
+    <string name="feed_type_calibration">Kalibrasi</string>
+
+    <!--    Pond-->
+    <string name="pond_filter_all_pond">Seluruh Kolam</string>
+    <string name="pond_filter_with_feeder">Dengan eFeeder</string>
+    <string name="pond_filter_without_feeder">Tanpa eFeeder</string>
+    <string name="filter_without_feeder">Tanpa feeder</string>
+    <string name="filter_with_efeeder">Dengan efeeder</string>
+    <string name="bottom_sheet_no_pond_category">Tidak ada kolam dengan kategori ini</string>
+    <string name="bottom_sheet_empty_feeder_warning">Tidak ada feeder di tambak Ini</string>
+    <string name="select_another_pond">Pilih kolam lain</string>
+    <string name="pond_list">Daftar Kolam</string>
+    <string name="farm_list">Daftar Tambak</string>
+    <string name="other_ponds">Kolam lain</string>
+
+    <!--    Connected Intranet-->
+    <string name="connect_access_point">Hubungkan dengan Akses Poin</string>
+    <string name="description_connect_access_point">Hubungkan ke akses poin agar bisa melakukan
+        pengaturan dengan praktis.
+    </string>
+    <string name="description_contact_fts">Karena sinyal akses poinnya tidak ditemukan, kamu perlu
+        bantuan tim lapangan untuk beralih ke mode wifi.
+    </string>
+    <string name="bottomsheet_feeder_connection_info_fail_to_connect_title">Gagal koneksi ke feeder:
+        %s
+    </string>
+    <string name="bottomsheet_feeder_connection_info_fail_to_connect_message">Pastikan anda
+        terkoneksi dengan feeder: %s
+    </string>
+    <string name="bottomsheet_feeder_connection_info_connected_to_ap_title">Berhasil koneksi ke
+        akses poin: %s
+    </string>
+    <string name="bottomsheet_feeder_connection_info_connected_to_ap_message">Anda sekarang sudah
+        terkoneksi ke akses poin: %s
+    </string>
+    <string name="failed_connected_access_point">Kamu terputus dengan Akses Poin. Hubungkan ulang
+        agar dapat melanjutkan
+    </string>
+
+    <!--    Core-->
+    <string name="cancel">Batal</string>
+    <string name="connect">Hubungkan</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Successfully connected!</string>
+    <string name="title_contact_fts">Mau Menghubungi FTS?</string>
+    <string name="latter">Nanti</string>
+    <string name="report_problem">Laporkan kendala</string>
+    <string name="select">Pilih</string>
+    <string name="please_wait">Mohon Menunggu…</string>
+    <string name="try_again">Coba lagi</string>
+
+    <!--    Reminder-->
+    <string name="title_change_setting_to_use_intranet">Ganti Pengaturan Dulu Untuk Menggunakan
+        Intranet
+    </string>
+    <string name="description_change_setting_to_use_intranet">Mode feeder kamu saat ini tidak bisa
+        digunakan. Ubah dulu pengaturannya, ya.
+    </string>
+    <string name="yes_replace">Ya, ganti</string>
+    <string name="button_cancel">Batal</string>
+    <string name="button_change">Ubah</string>
+
+    <!--    Cycle-->
+    <string name="pond_management_cycle_ended">Siklus berakhir %s</string>
+
+    <!--    List Feeder-->
+    <string name="feeder_status_online">Terhubung</string>
+    <string name="feeder_status_offline">Terputus</string>
+    <string name="feeder_status_turnoff">Dimatikan</string>
+    <string name="feeder_status_undefined">Status tidak diketahui</string>
+    <string name="feeder_status_intranet">Intranet</string>
+    <string name="feeder_status_wakeup">Bangun</string>
+    <string name="feeder_status_sleep">Tidur</string>
+    <string name="feeder_status_standalone">Standalone</string>
+    <string name="feeder_status_undetected">Tidak terdeteksi</string>
+
+    <!--    MotorPower-->
+    <string name="pwm_get_setting">Memuat Informasi Pengaturan</string>
+    <string name="pwm_set_pwm">Melontarkan pakan</string>
+    <string name="pwm_set_current">Penyesuaian toleransi mampet</string>
+    <string name="pwm_set_setting">Sedang Mengkalkulasi</string>
+    <string name="pwm_max_ampere_dosing">Maksimum nilai 10.0</string>
+    <string name="pwm_max_ampere_throwing">Maksimum nilai 20.0</string>
+    <string name="pwm_ampere_dosing">Ampere Dosing</string>
+    <string name="pwm_throwing_ampere">Ampere Pelontar</string>
+    <string name="pwm_previous_current_value">Nilai Arus Sebelumnya</string>
+
+    <!--  Pond Detail  -->
+    <string name="pond_detail_empty_feeders">Tidak ada feeder terdaftar di kolam ini</string>
+
+    <!--  New Pond Created  -->
+    <string name="new_pond_created_title">Kita berhasil nambahin %d kolam di akun kamu</string>
+    <string name="new_pond_created_message">Kamu bisa kasih nama, biar memudahkan kamu menemukan eFeeder yang mau kamu atur</string>
+    <string name="new_pond_created_name_it">Beri nama sekarang</string>
+    <string name="new_pond_created_dont_remind">Jangan ingatkan lagi</string>
+    <string name="new_pond_label">Baru</string>
+
+    <!--  Configuration  -->
+    <string name="start_provisioning_title">Aktivasi Mode Remote Setting</string>
+    <string name="start_provisioning_title_information">Hal Penting Sebelum Aktivasi Mode Remote Setting</string>
+    <string name="start_provisioning_description_information">Pastikan feeder-mu memenuhi syarat ini agar bisa melakukan pengaturan yang lebih praktis.</string>
+    <string name="provisioning_information_min_cobox_5">Menggunakan Control Box generasi 5.</string>
+    <string name="provisioning_information_cobox_mode_ap">Control Box dalam mode AP dengan indikator berwarna oranye.</string>
+    <string name="provisioning_information_cobox_signal">Secara otomatis akan memilih koneksi yang paling kuat.</string>
+    <string name="provisioning_information_qr_code">Menggunakan QR jika berada dekat feeder yang ingin dikonfigurasi.</string>
+    <string name="start_provisioning">Mulai Aktivasi</string>
+
+    <!--Pond Management-->
+    <string name="pond_management_verified_name">Verified name %s</string>
+    <string name="pond_management_edit_quota">Kamu bisa ngubah nama %d kali lagi</string>
+    <string name="pond_management_edit_failed_title">Gagal mengubah nama kolam</string>
+    <string name="pond_management_edit_failed_message">Terjadi kesalahan saat memproses perubahan nama kolam. Silahkan coba kembali.</string>
+    <string name="setting_profile_pond_verified">Verified name : %s</string>
+    <string name="setting_profile_pond_move_feeder">Pindahkan ke kolam lain?</string>
+
+    <!--  Move Feeder  -->
+    <string name="before_location">Lokasi Awal</string>
+    <string name="after_location">Lokasi Tujuan</string>
+    <string name="move_feeder">Pindahkan Feeder</string>
+    <string name="move_feeder_success_title">eFeeder berhasil dipindahkan ke kolam %s</string>
+    <string name="move_feeder_success_message">Kini %s di %s sudah dipindahkan ke kolam %s</string>
+</resources>
