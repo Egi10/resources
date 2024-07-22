@@ -5,7 +5,15 @@ struct ContentView: View {
 	let greet = Greeting().greet()
 
 	var body: some View {
-		Text(greet)
+        VStack {
+            Text(greet)
+            
+            let resource = FeederRes.strings().tests
+            Text(
+                LocalizedStringKey(resource.resourceId),
+                bundle: resource.bundle
+            )
+        }
 	}
 }
 

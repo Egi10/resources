@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.plugin.mpp.NativeBuildType
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
@@ -23,6 +25,7 @@ kotlin {
         version = "1.0"
         ios.deploymentTarget = "16.0"
         podfile = project.file("../../iosApp/Podfile")
+        name = "proton"
         framework {
             baseName = "proton"
             isStatic = true
@@ -30,12 +33,14 @@ kotlin {
             export(project(":shared:common:resources"))
             export(libs.moko.resources)
         }
+
+        xcodeConfigurationToNativeBuildType["Staging"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["UAT"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["ProdDebug"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["ProdRelease"] = NativeBuildType.RELEASE
     }
     
     sourceSets {
-        commonMain.dependencies {
-
-        }
         commonMain.dependencies {
             //put your multiplatform dependencies here
             api(project(":shared:common:resources"))
@@ -60,5 +65,5 @@ android {
 
 multiplatformResources {
     resourcesPackage.set("org.example.library.proton.resource") // required
-    resourcesClassName.set("FeederRes") // optional, default MR
+//    resourcesClassName.set("FeederRes") // optional, default MR
 }

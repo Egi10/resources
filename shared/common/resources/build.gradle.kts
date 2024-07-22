@@ -1,3 +1,7 @@
+import org.jetbrains.kotlin.gradle.plugin.KotlinSourceSet
+import org.jetbrains.kotlin.gradle.plugin.mpp.NativeBuildType
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompileCommon
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
@@ -6,6 +10,17 @@ plugins {
 }
 
 kotlin {
+    metadata {
+        compilations.configureEach {
+            if (name == KotlinSourceSet.COMMON_MAIN_SOURCE_SET_NAME) {
+                compileTaskProvider {
+                    this as KotlinCompileCommon
+                    moduleName.set("${project.group}:${moduleName.get()}")
+                }
+            }
+        }
+    }
+
     androidTarget {
         compilations.all {
             kotlinOptions {
@@ -22,12 +37,18 @@ kotlin {
         homepage = "Link to the Shared Module homepage"
         version = "1.0"
         ios.deploymentTarget = "16.0"
+        name = "resources"
         framework {
-            baseName = "resource"
+            baseName = "resources"
             isStatic = true
 
             export(libs.moko.resources)
         }
+
+        xcodeConfigurationToNativeBuildType["Staging"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["UAT"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["ProdDebug"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["ProdRelease"] = NativeBuildType.RELEASE
     }
     
     sourceSets {
